@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
   padding: 0;
 }
@@ -8,4 +8,11 @@
   width: 100vw;
   height: 10vh;
   display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  margin-right: 1vw;
 }
