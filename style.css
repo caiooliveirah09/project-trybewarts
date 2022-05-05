@@ -38,8 +38,6 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
-  width: 500px;
-  display: flex;
 }
 
 .dados {
@@ -61,4 +59,8 @@ main {
 
 .labelContent {
   display: block;
+}
+
+footer {
+
 }

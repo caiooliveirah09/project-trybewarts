@@ -63,13 +63,33 @@
         <label for="Python">Python</label>
     </div>
     </section>
-    
-  
-  
-  </form>
-    <!-- LEVAR A IMG REQUISITO 7 PRA MENTORIA -->
-    <img id="trybewarts-forms-logo" src="./images/trybewarts-colored.svg" alt="logo da Trybewarts">
+    <div>
+      <p id="label-rate">Como você avalia a Trybewarts?</p>
+      <input type="radio" name="rate">1
+      <input type="radio" name="rate">2
+      <input type="radio" name="rate">3
+      <input type="radio" name="rate">4
+      <input type="radio" name="rate">5
+      <input type="radio" name="rate">6
+      <input type="radio" name="rate">7
+      <input type="radio" name="rate">8
+      <input type="radio" name="rate">9
+      <input type="radio" name="rate">10
+    </div>
+  <label class="textarea" for="textarea">Deixe seu comentário:</label>
+  <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+  <div> 
+    <input type="checkbox" name="agreement" id="agreement" value="agreement">
+    <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
+  </div>
+  <button id="submit-btn" type="submit" style="display:none">Enviar</button>
+</form>
+<!-- LEVAR A IMG REQUISITO 7 PRA MENTORIA -->
+    <img id="trybewarts-forms-logo" src="./images/trybewarts-colored.svg" alt="logo da Trybewarts" />
   </main>
+  <footer>
+    <p>Direitos reservados à Trybewarts©</p>
+  </footer>
 </body>
 <script src="./script.js"></script>
 </html>

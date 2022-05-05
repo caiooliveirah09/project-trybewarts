@@ -11,3 +11,11 @@ function validateForm() {
 let button = document.getElementById("botao");
 
 button.addEventListener('click', validateForm)
+
+function validateCheckBox(){
+  const checkbox = document.getElementById("agreement")
+  const submitButton = document.getElementById("submit-btn")
+  if (checkbox.checked == true){
+    
+  }
+}
