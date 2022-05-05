@@ -47,5 +47,18 @@ main {
  flex-direction: row;
 }
 
+#sectionContainer {
+  display: flex;
+}
 
+#labelContainer {
+  flex-direction: column;
+}
 
+#checkboxContainer {
+  flex-direction: column;
+}
+
+.labelContent {
+  display: block;
+}
