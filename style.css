@@ -41,3 +41,11 @@ main {
   width: 500px;
   display: flex;
 }
+
+.dados {
+ display: flex;
+ flex-direction: row;
+}
+
+
+
