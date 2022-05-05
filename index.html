@@ -24,7 +24,19 @@
     </div>
   </header>
   <main>
-    <form id="evaluation-form" action="post"></form>
+    <form id="evaluation-form" action="post">
+      <input type="text" name="nome" id="input-name"  placeholder="Nome">
+      <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
+      <input type="email" name="email" id="input-email" placeholder="Email">
+      <select name="house" id="house">
+        <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+        <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+        <option id="corvinode-house" value="Corvinode">Corvinode</option>
+        <option id="pytherina-house" value="Pytherina">Pytherina</option>
+      </select>
+    </form>
+    <!-- LEVAR A IMG REQUISITO 7 PRA MENTORIA -->
+    <img id="trybewarts-forms-logo" src="./images/trybewarts-colored.svg" alt="logo da Trybewarts">
   </main>
 </body>
 <script src="./script.js"></script>
