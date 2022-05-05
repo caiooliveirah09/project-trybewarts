@@ -1,6 +1,6 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -26,6 +26,7 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
+  flex-direction: column;
 }
 
 .trybewarts-header-logo {
@@ -33,17 +34,13 @@ main {
   height: 100px;
 }
 
-#evaluation-form{
-  flex-direction: column;
-}
-
 #trybewarts-forms-logo {
   height: 500px;
 }
 
 .dados {
- display: flex;
- flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 #sectionContainer {
