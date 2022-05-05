@@ -10,9 +10,24 @@ body {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  justify-content: space-between;
 }
 
 .trybewarts-login {
   display: flex;
   margin-right: 1vw;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
+
+.trybewarts-header-logo {
+  width: 100px;
+  height: 100px;
 }

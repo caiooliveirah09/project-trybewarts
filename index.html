@@ -13,15 +13,19 @@
   <header>
     <div class="header">
       <div id="login">
-        <form name="login" class="trybewarts-login" action="post" onsubmit="validateForm()">
+        <form name="login" class="trybewarts-login" action="post">
           <input id="email" type="name" placeholder="Email" name="email">
-          <input id="senha" type="name" placeholder="Senha" name="senha">
-          <input type="submit" value="Entrar">
+          <input id="password" type="name" placeholder="Senha" name="password">
+          <button id="botao">Entrar</button>
         </form>
       </div>
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
       <img src="./images/trybewarts-header-logo.svg" alt="Logotipo da escola de magia Trybewarts" class="trybewarts-header-logo">
     </div>
   </header>
+  <main>
+    <form id="evaluation-form" action="post"></form>
+  </main>
 </body>
 <script src="./script.js"></script>
 </html>
